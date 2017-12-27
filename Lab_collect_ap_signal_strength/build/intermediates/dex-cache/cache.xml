@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\software\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\定位程序\系统资料\RSSMAP_collect_all_ap\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-1c15124d28432e70270309c66911c5ec5c1639bd.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/ipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/time_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/location_x"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:text="time_interval" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ipText"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:text="Start_scan" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button1"
+        android:text="clean" />
+
+    <EditText
+        android:id="@+id/location_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/button1"
+        android:ems="10"
+        android:text="location_y" />
+
+    <EditText
+        android:id="@+id/location_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/location_y"
+        android:layout_alignBottom="@+id/location_y"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:ems="10"
+        android:text="location_x" />
+
+    <EditText
+        android:id="@+id/test_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/time_interval"
+        android:layout_alignBottom="@+id/time_interval"
+        android:layout_alignLeft="@+id/location_y"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text="test_time" />
+
+</RelativeLayout>
